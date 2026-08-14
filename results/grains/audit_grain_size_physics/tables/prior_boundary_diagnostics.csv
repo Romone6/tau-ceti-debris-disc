@@ -1,0 +1,4 @@
+parameter,lower,upper,fraction_near_lower,fraction_near_upper,status
+diagnostic_Dmin_um,not defined,not defined,NA,NA,fixed at 20; no prior/posterior
+reference_Dbl_um,0.1,not fixed,computed from reproduced prior,NA,truncated Normal model assumption
+Lawler_Dmin_um,scenario,scenario,NA,NA,15 +/- 8 physical-grain-model estimate

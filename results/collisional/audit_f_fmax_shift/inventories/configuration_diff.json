@@ -1,0 +1,25 @@
+{
+  "diagnostic_blowout_um": 20.0,
+  "diagnostic_broad_annuli": 120,
+  "diagnostic_dc_km": "log-uniform(10,2000)",
+  "diagnostic_e": "log-uniform(0.01,0.2)",
+  "diagnostic_geometry_source": "joint map/visibility Laplace draws",
+  "diagnostic_inclination": "I=0.5e clipped at 0.001",
+  "diagnostic_qd": "log-uniform(10,1000)",
+  "diagnostic_samples": 2500,
+  "diagnostic_seed": 20260801,
+  "reference_blowout_um": "truncated Normal(1.2,0.3)",
+  "reference_broad_annuli": 250,
+  "reference_dc_km": "log-uniform(1,2000)",
+  "reference_e": "log-uniform(0.01,0.1)",
+  "reference_geometry": {
+    "rin_au": 6.0,
+    "rout_au": 55.0,
+    "surface_power": 0.0
+  },
+  "reference_inclination": "I=e",
+  "reference_qd": "log-uniform(50,500)",
+  "reference_samples": 200000,
+  "reference_seed": 20260723,
+  "same_fmax_function": true
+}

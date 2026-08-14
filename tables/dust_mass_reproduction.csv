@@ -1,0 +1,2 @@
+quantity,value,unit,fixed assumptions,interpretation
+optically_thin_dust_mass,0.000492247,Earth mass,F_850=4.6 mJy; d=3.65 pc; T=60 K; kappa_850=0.1 m2/kg,implementation reproduction only; no uncertainty interval assigned

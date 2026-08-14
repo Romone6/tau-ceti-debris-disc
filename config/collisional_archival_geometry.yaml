@@ -1,0 +1,5 @@
+include: collisional_reference.yaml
+model_id: collisional_archival_geometry
+overrides:
+  geometry: diagnostic archival geometry arrays from reproduced diagnostic draws
+  non_geometric_priors: reference

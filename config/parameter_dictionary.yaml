@@ -1,0 +1,13 @@
+parameters:
+  t: {definition: stellar age, units: Myr, conversion: Gyr*1000}
+  M_star: {definition: stellar mass, units: M_sun, conversion: none}
+  L_star: {definition: stellar luminosity, units: L_sun, conversion: none}
+  r: {definition: belt radius or local annulus midpoint, units: AU, conversion: none}
+  dr_over_r: {definition: fractional belt width, units: dimensionless, conversion: none}
+  D_bl: {definition: beta=0.5 radiation-pressure blowout diameter, units: micrometres, conversion: distinct from radius}
+  D_min: {definition: lower cascade cutoff, units: micrometres, conversion: sensitivity only unless rederived}
+  D_char: {definition: characteristic emitting grain size, units: micrometres, conversion: not constrained}
+  D_c: {definition: largest cascade body diameter, units: km, conversion: code converts micrometres/km ratio}
+  Q_D_star: {definition: catastrophic disruption energy, units: J kg^-1, conversion: none}
+  e: {definition: eccentricity, units: dimensionless fraction, conversion: percent values prohibited}
+  I: {definition: inclination parameter in Eq14, units: dimensionless fraction, conversion: production sets I=e}

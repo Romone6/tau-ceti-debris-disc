@@ -1,0 +1,9 @@
+\\begin{tabular}{llllll}
+Parameter & Definition & Units & Distribution & Source & Models \\
+\\hline
+age & stellar age & Myr & truncated Normal(7630,870), lower 4000 & collisional\\_reference.yaml & reference, diagnostic \\
+D\\_c & largest cascade body diameter & km & LogUniform(1,2000) & collisional\\_reference.yaml & all collisional \\
+Q\\_D* & catastrophic disruption energy & J kg^-1 & LogUniform(50,500) & collisional\\_reference.yaml & all collisional \\
+e & eccentricity & fraction & LogUniform(0.01,0.1); I=e & collisional\\_reference.yaml & all collisional \\
+D\\_bl/D\\_min & grain cutoff in Eq14 & um & reference D\\_bl assumption or fixed D\\_min=20 & collisional\\_dmin\\_20um.yaml; grain\\_scenarios.yaml & all collisional \\
+\end{tabular}

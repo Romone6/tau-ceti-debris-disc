@@ -1,0 +1,128 @@
+{
+  "method": "Laplace approximation to direct Herschel JSCANAM image likelihood plus 12-m/ACA uv-grid likelihood; linear flux terms profiled per dataset",
+  "status": "diagnostic map/visibility posterior; not HIPE raw telemetry and not the accepted baseline",
+  "optimizer": {
+    "success": true,
+    "message": "`ftol` termination condition is satisfied.",
+    "chi2": 11632.038980181776,
+    "n_residuals": 31483,
+    "n_parameters": 7,
+    "reduced_chi2": 0.3695526426541421
+  },
+  "posterior": {
+    "draws": 2500,
+    "covariance_scale": 0.3695526426541421,
+    "parameters": {
+      "inner_radius_arcsec": {
+        "p2_5": 0.43201497267606837,
+        "p16": 2.323399563191124,
+        "median": 4.492892257324011,
+        "p84": 5.0,
+        "p97_5": 5.0
+      },
+      "width_arcsec": {
+        "p2_5": 5.9281050461503275,
+        "p16": 7.629927501112631,
+        "median": 9.582014149566058,
+        "p84": 11.508666053293773,
+        "p97_5": 13.424775220126461
+      },
+      "inclination_deg": {
+        "p2_5": 0.0,
+        "p16": 0.0,
+        "median": 33.96539378592805,
+        "p84": 70.0,
+        "p97_5": 70.0
+      },
+      "position_angle_deg": {
+        "p2_5": 60.0,
+        "p16": 60.0,
+        "median": 91.87713366847188,
+        "p84": 140.0,
+        "p97_5": 140.0
+      },
+      "radial_power": {
+        "p2_5": -0.28592489380650765,
+        "p16": -0.2057263781174595,
+        "median": -0.1213102564487317,
+        "p84": -0.03515305884815478,
+        "p97_5": 0.04983508004203221
+      },
+      "east_offset_arcsec": {
+        "p2_5": -0.0149058929608886,
+        "p16": -0.003610335031457298,
+        "median": 0.009118832344058457,
+        "p84": 0.021094815164459747,
+        "p97_5": 0.032588113275366835
+      },
+      "north_offset_arcsec": {
+        "p2_5": 0.21189616818502363,
+        "p16": 0.22060869755565884,
+        "median": 0.22962332724741086,
+        "p84": 0.2390870128691746,
+        "p97_5": 0.24805975698124802
+      }
+    }
+  },
+  "updated_metrics": {
+    "f_tau": {
+      "p2_5": 1.1961442131299288e-06,
+      "p16": 1.8469218206768983e-06,
+      "median": 2.851297343462222e-06,
+      "p84": 4.2182522881732e-06,
+      "p97_5": 5.983936539115745e-06
+    },
+    "f_over_fmax_ring": {
+      "p2_5": 0.01746259723198106,
+      "p16": 0.09119530901661048,
+      "median": 0.6738862260761933,
+      "p84": 4.877126255227346,
+      "p97_5": 25.78627677253499
+    },
+    "f_over_fmax_broad": {
+      "p2_5": 0.018589896855836383,
+      "p16": 0.10100921335408351,
+      "median": 0.7412971449363863,
+      "p84": 5.37049484263635,
+      "p97_5": 29.757856698558392
+    },
+    "P_ring_gt_1": 0.4184,
+    "P_ring_gt_10": 0.086,
+    "P_broad_gt_1": 0.4408,
+    "P_broad_gt_10": 0.094,
+    "q_tau": {
+      "p2_5": 0.7329648151821969,
+      "p16": 0.7984728689334891,
+      "median": 0.8669501363835967,
+      "p84": 0.9211012844942921,
+      "p97_5": 0.9586085717574357
+    },
+    "z_tau": {
+      "p2_5": 0.62180458830912,
+      "p16": 0.8361789109945235,
+      "median": 1.1120894577590663,
+      "p84": 1.4125182586565495,
+      "p97_5": 1.7347627807456372
+    },
+    "P_q_gt_090": 0.2904,
+    "P_q_gt_095": 0.0436,
+    "P_q_gt_099": 0.0
+  },
+  "inputs": {
+    "maps": [
+      "/Users/romonedunlop/Documents/Tau Ceti Research/data/processed/herschel/anonymous1785413712/1342213575/level2_5/HPPJSMAPB/hpacs_25HPPJSMAPB_blue_0144_m1556_00_v1.0_1471671390008.fits.gz",
+      "/Users/romonedunlop/Documents/Tau Ceti Research/data/processed/herschel/anonymous1785413712/1342213575/level2_5/HPPJSMAPR/hpacs_25HPPJSMAPR_0144_m1556_00_v1.0_1471671390552.fits.gz",
+      "/Users/romonedunlop/Documents/Tau Ceti Research/data/processed/herschel/anonymous1785413524/1342199389/level2/extdPSW/hspirepsw1342199389_20pxmp_1461164977536.fits.gz"
+    ],
+    "visibility_files": [
+      "results/alma/target_visibilities.h5",
+      "results/alma/aca_target_visibilities.h5"
+    ],
+    "candidate_background_offset_arcsec": [
+      92.57216557960025,
+      42.90900562815864
+    ],
+    "noise_inflation_herschel": 2.0,
+    "random_seed": 20260801
+  }
+}

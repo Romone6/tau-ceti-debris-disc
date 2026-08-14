@@ -1,0 +1,3 @@
+# Diagnostic pipeline inventory
+
+Entry point: `run_joint_map_visibility_posterior.py`. Stored posterior draws are in `results/tables/joint_map_visibility_posterior_draws.csv`; the source omits the collisional random variables, so this audit reconstructs them from seed 20260801 and the source draw order. The diagnostic uses map-level Herschel likelihoods and 12-m/ACA uv-grid likelihoods, a Laplace geometry posterior, 2500 draws, 20 micrometre blowout diameter, D_c log-uniform 10–2000 km, Q_D* log-uniform 10–1000 J kg^-1, eccentricity log-uniform 0.01–0.2, inclination=max(0.5e,0.001), age Normal(7630,870) Myr clipped to 4000–11000, and Eq. 14 ring/broad calculations.

@@ -1,0 +1,100 @@
+{
+  "git_commit": "388279db8d8f7cb88ad2d1b6677b34a36f6306db",
+  "python_version": "3.12.12",
+  "package_versions": {
+    "numpy": "2.5.1",
+    "scipy": "1.18.0",
+    "matplotlib": "3.11.1"
+  },
+  "random_seeds": {
+    "sed": 20260723,
+    "population_catalogue_and_bootstrap": 20260723,
+    "population_tau_predictive": 20260724
+  },
+  "verification": {
+    "status": "ok",
+    "mismatches": [],
+    "accepted_baseline": {
+      "fractional_luminosity_median": 8.36e-06,
+      "fractional_luminosity_p16": 7.06e-06,
+      "fractional_luminosity_p84": 1.03e-05,
+      "q_tau_median": 0.927,
+      "q_tau_p16": 0.886,
+      "q_tau_p84": 0.966,
+      "q_tau_p95_low": 0.854,
+      "q_tau_p95_high": 0.983,
+      "z_tau_median": 1.46,
+      "z_tau_p16": 1.21,
+      "z_tau_p84": 1.82,
+      "p_q_gt_090": 0.71,
+      "p_q_gt_095": 0.317,
+      "p_q_gt_099": 0.0,
+      "ring_ratio_median": 0.19,
+      "broad_ratio_median": 0.23
+    }
+  },
+  "metrics": {
+    "fractional_luminosity": {
+      "p16": 7.060864247699445e-06,
+      "median": 8.357427655638217e-06,
+      "p84": 1.0318853153141367e-05
+    },
+    "population": {
+      "q_tau": {
+        "p16": 0.8862851794941783,
+        "median": 0.9274083133073248,
+        "p84": 0.9658201633285749,
+        "p95_low": 0.8535877689139926,
+        "p95_high": 0.983305789733218,
+        "p_q_gt_090": 0.71,
+        "p_q_gt_095": 0.31666666666666665,
+        "p_q_gt_099": 0.0
+      },
+      "z_tau": {
+        "p16": 1.2070065501837977,
+        "median": 1.456758216415282,
+        "p84": 1.8226307878838717
+      },
+      "sample": {
+        "n_stars": 233,
+        "n_detections": 44,
+        "tau_ceti_held_out": true
+      }
+    },
+    "collisional": {
+      "A_characteristic_radius_ring": {
+        "ratio_p16": 0.03672496346754841,
+        "ratio_p50": 0.18608025936957256,
+        "ratio_p84": 0.9385465986146695,
+        "p_ratio_gt_1": 0.15033,
+        "p_ratio_gt_10": 0.00116,
+        "classification": "Consistent with steady state"
+      },
+      "B_continuous_broad_belt": {
+        "ratio_p16": 0.04513481385229102,
+        "ratio_p50": 0.2291458892158028,
+        "ratio_p84": 1.1575045736081613,
+        "p_ratio_gt_1": 0.183245,
+        "p_ratio_gt_10": 0.002895,
+        "classification": "Marginal or assumption-dependent"
+      },
+      "C_independent_annuli": {
+        "ratio_p16": 0.04513481385229102,
+        "ratio_p50": 0.2291458892158028,
+        "ratio_p84": 1.1575045736081613,
+        "p_ratio_gt_1": 0.183245,
+        "p_ratio_gt_10": 0.002895,
+        "classification": "Marginal or assumption-dependent"
+      }
+    }
+  },
+  "checksums": {
+    "results/final/accepted_merged_model_summary.json": "7fb0d3b0d66d09164d6009ff0b9bca85456185a682904fe3fea173161ce137a3",
+    "results/tables/sed_model_comparison.csv": "6c47a45cfbea98c8402d98caada574166a7695545568c59abe1fb18354dd9e18",
+    "results/tables/tau_ceti_merged_population_position.csv": "8ae9465b2d10e986e87b100129ca5775c80f29aee346fb9749483a18736cff0f",
+    "results/tables/collisional_geometry_summary.csv": "3996abb5db9deb93ecbe3a01e2d25a6cb999c6d391b0e258a1cb06409cf0db3f",
+    "report/sed_analysis.md": "5934c729b6f83dbf3a3ab41446903ab3aa13ac6afc9566575a314f1ef2cae97a",
+    "report/collisional_geometry_audit.md": "6191d08c5df0e2a115753211519102a8255e3808428a6446f0230819089fddb1",
+    "report/strict_merged_population_analysis.md": "0895c2e7b71d5f2004707cd85322b7a298c5a9095c52832aab8185a7bcbbe604"
+  }
+}

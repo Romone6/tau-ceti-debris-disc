@@ -1,0 +1,11 @@
+WARN `--no-project` was provided, but no project was found
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, beta_age, beta_mass, survey_intercept, sigma_dunes, sigma_debris]
+Sampling 4 chains for 1_500 tune and 1_500 draw iterations (6_000 + 6_000 draws total) took 2 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, beta_age, beta_mass, sigma_dunes]
+MCMC complete 233 rows q median 0.9328979176783949 z median 1.497727113773574
+Sampling 4 chains for 1_500 tune and 1_500 draw iterations (6_000 + 6_000 draws total) took 1 seconds.
+DUNES-only MCMC complete 126 rows

@@ -1,0 +1,7 @@
+Python 3.12.12
+numpy 2.5.1
+scipy 1.18.0
+matplotlib 3.11.1
+astropy 8.0.1
+h5py 3.16.0
+Git commit recorded in reproduced_runs/run_manifest.json

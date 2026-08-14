@@ -1,0 +1,86 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage[margin=1in]{geometry}
+
+\title{Tau Ceti's Debris Disc: Archival Raw-Data Reduction Phase}
+\author{Reproducible research repository}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This document records a conditional revision of the accepted Tau Ceti debris-disc
+constraint synthesis. The archival phase preserved and checksummed the official
+Herschel and ALMA deliveries, performed an executable map-level reanalysis of
+the official Herschel products, and executed the delivered ALMA calibration
+scripts through a documented modular CASA compatibility layer. Calibrated 12-m
+and ACA measurement sets were used for a diagnostic visibility-domain fit and a
+joint map/visibility posterior. No new telescope observations were obtained.
+Full HIPE telemetry reprocessing and original CASA 4.2.2 binary validation were
+not available, so the accepted baseline remains the authoritative headline
+inference.
+\end{abstract}
+
+\section{Status relative to the baseline}
+
+The accepted baseline gives
+\[
+f_\tau=8.36\times10^{-6},\qquad
+q_\tau=0.927,\qquad
+z_\tau=1.46,
+\]
+with validated collisional ratios \(f/f_{\max}=0.19\)--\(0.23\).
+These values are frozen in
+\texttt{results/baseline/accepted\_baseline\_manifest.json}.
+
+\section{Archival data and honest reduction level}
+
+The exact Herschel OBSIDs are 1342199389, 1342213575 and 1342213576.
+The ALMA project is 2013.1.00588.S with member OUS entries
+\texttt{uid://A001/X121/X3b7} and \texttt{uid://A001/X121/X3b9}.
+The official raw and product bundles are preserved under
+\texttt{data/raw/} and \texttt{data/archive\_products/}.
+
+HIPE is unavailable locally, so the Herschel result is explicitly a map-level
+reanalysis of official Level 2/2.5 products rather than a raw telemetry
+re-reduction. The delivered CASA 4.2.2/Python-2 scripts were translated in
+memory and executed with modular CASA 6.7.5. This produced calibrated
+measurement sets and a visibility-domain diagnostic, but is not a claim of
+bit-for-bit original-runtime equivalence.
+
+\section{Herschel map-level result}
+
+The reference fit uses deduplicated PACS 70 and 160 micrometre JSCANAM products
+and the SPIRE 250 micrometre extended-source map. It fits a PSF-convolved
+axisymmetric belt, fixed photospheres, a candidate background source, a
+background plane and residual astrometric offsets. The reference geometry is
+approximately \(R_{\rm in}=16.6\) au, \(R_{\rm out}=52.3\) au, inclination
+\(21^\circ\), and position angle \(93^\circ\). Map-maker and PSF variants shift
+these values materially, and injection recovery does not robustly recover the
+inner edge. Consequently these numbers are diagnostic map-level estimates,
+not replacement posterior constraints.
+
+\section{ALMA and joint inference}
+
+The archive contains the official calibration scripts, raw ASDM deliveries,
+QA products and restored images. The 12-m and both ACA execution blocks were
+calibrated; 2.27 million 12-m and 0.51 million ACA target visibilities were
+extracted and fitted in the uv domain. A diagnostic joint map/visibility
+posterior gives \(f_\tau=2.85\times10^{-6}\) (68\% interval
+\(1.85\)--\(4.22\times10^{-6}\)), with ring and broad-belt median
+\(f/f_{\max}=0.67\) and \(0.74\), respectively. These values are reported in
+\texttt{report/joint\_map\_visibility\_posterior.md}; they are not promoted over
+the accepted baseline because the Herschel reduction is map-level and CASA is
+not the original archive binary.
+
+\section{New-observation proposal}
+
+The accompanying proposal package recommends a compact ALMA Band 6
+12-m+ACA continuum program with maximum recoverable scale above \(30''\),
+approximately \(0.8''\)--\(1.0''\) 12-m resolution, and a target rms of
+10--15 microJy per beam. It is a design study only; no observing time has
+been requested or awarded.
+
+\end{document}

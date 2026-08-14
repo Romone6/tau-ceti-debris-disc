@@ -1,0 +1,5 @@
+include: collisional_reference.yaml
+model_id: collisional_archival_luminosity
+overrides:
+  f_obs: diagnostic SED posterior, median approximately 2.85e-6; exact samples retained in prior audit
+  luminosity_solar: 0.34

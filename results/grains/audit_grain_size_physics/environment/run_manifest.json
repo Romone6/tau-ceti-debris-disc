@@ -1,0 +1,16 @@
+{
+  "git_commit": "388279db8d8f7cb88ad2d1b6677b34a36f6306db",
+  "python": "3.12.12 (main, Dec  9 2025, 19:05:33) [Clang 21.1.4 ]",
+  "platform": "macOS-26.4-arm64-arm-64bit",
+  "seed": 20260802,
+  "reference_npz": {
+    "path": "/Users/romonedunlop/Documents/Tau Ceti Research/audit_f_fmax_shift/reproduced_runs/reference_reproduced_draws.npz",
+    "sha256": "7b48f2c4fa523934eb4273d6a0a148b7545eb0c8020faa7f4753673f3fbae417"
+  },
+  "diagnostic_npz": {
+    "path": "/Users/romonedunlop/Documents/Tau Ceti Research/audit_f_fmax_shift/reproduced_runs/diagnostic_reproduced_draws.npz",
+    "sha256": "1926d2549ab594e770face6bd73c1fd20b8fd12f663b9756e4ebb5060ad19cc6"
+  },
+  "command": "/Users/romonedunlop/Documents/Tau Ceti Research/.venv/bin/python /Users/romonedunlop/Documents/Tau Ceti Research/audit_grain_size_physics/run_grain_size_audit.py",
+  "status": "completed"
+}

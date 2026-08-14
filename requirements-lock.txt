@@ -1,0 +1,14 @@
+dynesty==3.1.0
+h5py==3.16.0
+h5netcdf==1.8.1
+matplotlib==3.11.1
+numpy==2.5.1
+scipy==1.18.0
+# Bayesian validation runtime (resolved in the ephemeral uv environment used for
+# the archived NetCDF posterior; the legacy project environment does not contain
+# these packages).
+pymc==6.2.0
+pytensor==3.2.4
+arviz==1.2.0
+xarray==2026.7.0
+# pandas/pyarrow/pytest are not installed in the legacy execution environment.

@@ -1,0 +1,65 @@
+{
+  "model": "merged strict; survey intercept + survey-specific scatter",
+  "git_commit": "388279db8d8f7cb88ad2d1b6677b34a36f6306db",
+  "random_seeds": {
+    "catalogue_and_bootstrap": 20260723,
+    "tau_predictive": 20260724
+  },
+  "environment": {
+    "python": "3.12.12",
+    "numpy": "2.5.1",
+    "scipy": "1.18.0",
+    "matplotlib": "3.11.1"
+  },
+  "sample": {
+    "n_stars": 233,
+    "n_detections": 44,
+    "tau_ceti_held_out": true
+  },
+  "percentile": {
+    "median": 0.9274083133073248,
+    "ci68": [
+      0.8862851794941783,
+      0.9658201633285749
+    ],
+    "ci95": [
+      0.8535877689139926,
+      0.983305789733218
+    ],
+    "P_q_gt_090": 0.71,
+    "P_q_gt_095": 0.31666666666666665,
+    "P_q_gt_099": 0.0,
+    "one_sided_predictive_tail": 0.07480951134459955,
+    "two_sided_predictive_tail": 0.1496190226891991
+  },
+  "z": {
+    "median": 1.456758216415282,
+    "ci68": [
+      1.2070065501837977,
+      1.8226307878838717
+    ],
+    "ci95": [
+      1.051967105155645,
+      2.1273838961535554
+    ]
+  },
+  "source_checksums": {
+    "data/raw/debris/table_a1_author_source.tex": "b7a6caafd06659cb007cf47c9fabfe0284c2356eee08258308cf504028b8d108",
+    "data/raw/debris/vican2012_ages.tsv": "fb1370ba88b855dd9a46218224477b306a8c99e45c34da247be8bdd85fb121d7",
+    "data/raw/debris/simbad_debris_identifier_response.txt": "79dc9cd578fa4169b4dd8b88d90a4131fade77434782b17d48b376783ecd6574",
+    "data/raw/debris/gaia_dr3_parallaxes.csv": "21b0fd1ace7b2b04eacbdb82a7fca6bbd58d4078e92cbc9a3aefc227414087b5",
+    "data/raw/debris/gaia_dr3_stellar_parameters.csv": "92d29196c28d325a3c65372b67eacb63daee2923d578df73b5c3b3de7c35617e"
+  },
+  "processed_data_checksums": {
+    "data/processed/debris_canonical_photometry.csv": "ee483d0269778cabfde60a062a33b061f0cfda4646e45b9411dfac4012e1ff9d",
+    "data/processed/debris_star_identity_map.csv": "2b3cb8b6c856e92b78365ed4bae5a0f890a6873a184b33593a9c257b70bfa22c",
+    "data/processed/fgk_fractional_luminosities.csv": "049c15646ae71fe66b37f6d34edf4411fa578be722e5a486099e9688e21a06ff",
+    "results/tables/final_sample_flow_audit.csv": "1fbf7a7b3e3e58ba028b31c2b810de9b93fb92f72850c26e78124cd81f5e53b5"
+  },
+  "accepted_model_checksum": "eda7fab50ae97ad3feb0a7762b5d7c46c81006755a8499720552a2fb2c43bda3",
+  "convergence": {
+    "status": "150/150 bootstrap MLE fits completed",
+    "mcmc_diagnostics": "not applicable: no MCMC sampler was used",
+    "pareto_k": "not applicable: PSIS-LOO requires posterior importance draws"
+  }
+}

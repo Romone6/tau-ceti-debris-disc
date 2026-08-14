@@ -1,0 +1,80 @@
+model_id: collisional_reference
+source_script: run_collisional_geometry_audit.py
+seed: 20260723
+formulations: [ring_characteristic_radius, continuous_broad_belt]
+parameters:
+  age_myr:
+    symbol: t
+    definition: stellar age
+    units: Myr
+    distribution_family: truncated_normal
+    parameters: {mean: 7630.0, sd: 870.0}
+    bounds: {lower: 4000.0}
+    source_or_rationale: data/processed/collisional_scenario_inputs.csv and production code
+  stellar_mass_solar:
+    symbol: M_star
+    definition: stellar mass
+    units: M_sun
+    distribution_family: truncated_normal
+    parameters: {mean: 0.783, sd: 0.012}
+    bounds: {lower: 0.1}
+    source_or_rationale: compiled stellar parameter constraint
+  luminosity_solar:
+    symbol: L_star
+    definition: stellar luminosity used by SED, not an independent Eq14 argument
+    units: L_sun
+    distribution_family: fixed
+    parameters: {value: 0.52}
+    bounds: {}
+    source_or_rationale: compiled stellar parameter constraint
+  blowout_diameter_um:
+    symbol: D_bl_or_D_cut
+    definition: diameter argument in implemented Wyatt Eq14; reference prior is a compact-grain assumption
+    units: micrometres
+    distribution_family: truncated_normal
+    parameters: {mean: 1.2, sd: 0.3}
+    bounds: {lower: 0.1}
+    source_or_rationale: model assumption; not observed
+  largest_body_km:
+    symbol: D_c
+    definition: largest body participating in cascade
+    units: km
+    distribution_family: loguniform
+    parameters: {lower: 1.0, upper: 2000.0}
+    bounds: {lower: 1.0, upper: 2000.0}
+    source_or_rationale: collisional scenario prior
+  disruption_energy_j_per_kg:
+    symbol: Q_D_star
+    definition: catastrophic disruption energy
+    units: J kg^-1
+    distribution_family: loguniform
+    parameters: {lower: 50.0, upper: 500.0}
+    bounds: {lower: 50.0, upper: 500.0}
+    source_or_rationale: collisional scenario prior
+  eccentricity:
+    symbol: e
+    definition: mean planetesimal eccentricity
+    units: dimensionless fraction
+    distribution_family: loguniform
+    parameters: {lower: 0.01, upper: 0.1}
+    bounds: {lower: 0.01, upper: 0.1}
+    source_or_rationale: collisional scenario prior
+  inclination:
+    symbol: I
+    definition: mean inclination in Eq14; production sets I=e
+    units: dimensionless fraction
+    distribution_family: derived
+    parameters: {rule: inclination=eccentricity}
+    bounds: {}
+    source_or_rationale: production code
+geometry:
+  inner_radius_au: 6.0
+  outer_radius_au: 55.0
+  surface_density_power: 0.0
+  ring_radius_definition: cross-section-weighted characteristic radius
+  ring_width_definition: (R_out-R_in)/R_c
+  broad_width_definition: local dlnr annulus width, summed over annuli
+equation:
+  source: Wyatt et al. 2007 Eq. 14 with Eq. 10
+  q: 1.8333333333333333
+  grain_exponent: -0.5

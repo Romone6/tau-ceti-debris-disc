@@ -1,0 +1,37 @@
+scenario,rho_g_cm3,Qpr,Dbl_p16_um,Dbl_median_um,Dbl_p84_um,method
+compact silicate,3.3,0.1,0.043459346407422474,0.04621192317207448,0.04898011949049776,analytic radiation-pressure grid; no Mie optical constants
+compact silicate,3.3,0.3,0.13037803922226743,0.13863576951622347,0.14694035847149325,analytic radiation-pressure grid; no Mie optical constants
+compact silicate,3.3,0.5,0.2172967320371124,0.23105961586037244,0.24490059745248877,analytic radiation-pressure grid; no Mie optical constants
+compact silicate,3.3,1.0,0.4345934640742248,0.46211923172074487,0.48980119490497753,analytic radiation-pressure grid; no Mie optical constants
+compact silicate,3.3,1.5,0.6518901961113371,0.6931788475811173,0.7347017923574665,analytic radiation-pressure grid; no Mie optical constants
+compact silicate,3.3,2.0,0.8691869281484496,0.9242384634414897,0.9796023898099551,analytic radiation-pressure grid; no Mie optical constants
+compact water ice,0.93,0.1,0.15421058402633783,0.16397779190090947,0.17380042399854045,analytic radiation-pressure grid; no Mie optical constants
+compact water ice,0.93,0.3,0.4626317520790134,0.4919333757027284,0.5214012719956214,analytic radiation-pressure grid; no Mie optical constants
+compact water ice,0.93,0.5,0.7710529201316892,0.8198889595045473,0.8690021199927022,analytic radiation-pressure grid; no Mie optical constants
+compact water ice,0.93,1.0,1.5421058402633785,1.6397779190090946,1.7380042399854043,analytic radiation-pressure grid; no Mie optical constants
+compact water ice,0.93,1.5,2.3131587603950674,2.4596668785136417,2.6070063599781066,analytic radiation-pressure grid; no Mie optical constants
+compact water ice,0.93,2.0,3.084211680526757,3.2795558380181893,3.4760084799708086,analytic radiation-pressure grid; no Mie optical constants
+compact carbonaceous,1.8,0.1,0.07967546841360788,0.08472185914880322,0.08979688573257923,analytic radiation-pressure grid; no Mie optical constants
+compact carbonaceous,1.8,0.3,0.2390264052408236,0.25416557744640966,0.26939065719773764,analytic radiation-pressure grid; no Mie optical constants
+compact carbonaceous,1.8,0.5,0.39837734206803943,0.4236092957440161,0.4489844286628961,analytic radiation-pressure grid; no Mie optical constants
+compact carbonaceous,1.8,1.0,0.7967546841360789,0.8472185914880322,0.8979688573257922,analytic radiation-pressure grid; no Mie optical constants
+compact carbonaceous,1.8,1.5,1.1951320262041183,1.2708278872320484,1.3469532859886886,analytic radiation-pressure grid; no Mie optical constants
+compact carbonaceous,1.8,2.0,1.5935093682721577,1.6944371829760645,1.7959377146515845,analytic radiation-pressure grid; no Mie optical constants
+mixed silicate-ice,2.0,0.1,0.07170792157224709,0.0762496732339229,0.08081719715932131,analytic radiation-pressure grid; no Mie optical constants
+mixed silicate-ice,2.0,0.3,0.21512376471674124,0.2287490197017687,0.24245159147796386,analytic radiation-pressure grid; no Mie optical constants
+mixed silicate-ice,2.0,0.5,0.3585396078612355,0.38124836616961444,0.4040859857966065,analytic radiation-pressure grid; no Mie optical constants
+mixed silicate-ice,2.0,1.0,0.717079215722471,0.7624967323392289,0.808171971593213,analytic radiation-pressure grid; no Mie optical constants
+mixed silicate-ice,2.0,1.5,1.0756188235837063,1.1437450985088433,1.2122579573898196,analytic radiation-pressure grid; no Mie optical constants
+mixed silicate-ice,2.0,2.0,1.434158431444942,1.5249934646784578,1.616343943186426,analytic radiation-pressure grid; no Mie optical constants
+porous silicate,1.0,0.1,0.14341584314449418,0.1524993464678458,0.16163439431864263,analytic radiation-pressure grid; no Mie optical constants
+porous silicate,1.0,0.3,0.4302475294334825,0.4574980394035374,0.4849031829559277,analytic radiation-pressure grid; no Mie optical constants
+porous silicate,1.0,0.5,0.717079215722471,0.7624967323392289,0.808171971593213,analytic radiation-pressure grid; no Mie optical constants
+porous silicate,1.0,1.0,1.434158431444942,1.5249934646784578,1.616343943186426,analytic radiation-pressure grid; no Mie optical constants
+porous silicate,1.0,1.5,2.1512376471674126,2.2874901970176866,2.424515914779639,analytic radiation-pressure grid; no Mie optical constants
+porous silicate,1.0,2.0,2.868316862889884,3.0499869293569155,3.232687886372852,analytic radiation-pressure grid; no Mie optical constants
+porous mixed,0.7,0.1,0.20487977592070597,0.21785620923977972,0.2309062775980609,analytic radiation-pressure grid; no Mie optical constants
+porous mixed,0.7,0.3,0.6146393277621179,0.6535686277193392,0.6927188327941826,analytic radiation-pressure grid; no Mie optical constants
+porous mixed,0.7,0.5,1.02439887960353,1.0892810461988987,1.1545313879903043,analytic radiation-pressure grid; no Mie optical constants
+porous mixed,0.7,1.0,2.04879775920706,2.1785620923977973,2.3090627759806086,analytic radiation-pressure grid; no Mie optical constants
+porous mixed,0.7,1.5,3.0731966388105896,3.2678431385966955,3.4635941639709134,analytic radiation-pressure grid; no Mie optical constants
+porous mixed,0.7,2.0,4.09759551841412,4.357124184795595,4.618125551961217,analytic radiation-pressure grid; no Mie optical constants

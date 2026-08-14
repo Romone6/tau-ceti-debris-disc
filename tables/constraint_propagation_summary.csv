@@ -1,0 +1,8 @@
+quantity,median,p16,p84,unit
+inner_radius_au,7.4024,4.4995,11.199,AU
+outer_radius_au,54.987,50.007,59.979,AU
+inclination_deg,35.076,25.197,44.963,degree from face-on
+blackbody_temperature_outer,31.869,30.433,33.488,K
+blackbody_temperature_inner,86.893,70.557,111.43,K
+outer_orbital_period,461.75,400.37,526.8,year
+radiation_blowout_radius,0.30622,0.28537,0.32787,micron; compact-grain model

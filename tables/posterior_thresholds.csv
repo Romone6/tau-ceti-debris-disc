@@ -1,0 +1,13 @@
+model,metric,median,threshold_gt_1,threshold_gt_10
+A_reference_physical_Dbl,ring_ratio_median,0.18740704196554983,0.162,0.001
+A_reference_physical_Dbl,broad_ratio_median,0.23093818378472689,0.202,0.004
+B_diagnostic_luminosity_reference_geometry,ring_ratio_median,0.06227722505153294,0.04,0.0
+B_diagnostic_luminosity_reference_geometry,broad_ratio_median,0.0765820110692578,0.06,0.0
+C_diagnostic_luminosity_archival_geometry,ring_ratio_median,0.10613166972048538,0.092,0.0
+C_diagnostic_luminosity_archival_geometry,broad_ratio_median,0.11624267886222743,0.101,0.0
+D_diagnostic_archival_Dmin20_reference_priors,ring_ratio_median,0.4323826575678673,0.307,0.018
+D_diagnostic_archival_Dmin20_reference_priors,broad_ratio_median,0.4723814948948344,0.33,0.025
+E_diagnostic_archival_physical_Dbl,ring_ratio_median,0.16431820152163698,0.178,0.009
+E_diagnostic_archival_physical_Dbl,broad_ratio_median,0.1797693633483447,0.195,0.012
+F_full_diagnostic_Dmin20,ring_ratio_median,0.6639454235362406,0.425,0.084
+F_full_diagnostic_Dmin20,broad_ratio_median,0.726377510110713,0.443,0.093

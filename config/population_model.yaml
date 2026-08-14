@@ -1,0 +1,23 @@
+model_id: dunes_restricted_censored_baseline
+source_script: run_population_analysis.py
+source_function: tau_ceti.population.fit_censored_age_model
+seed: 20260723
+data_scope:
+  survey: DUNES
+  spectral_classes: [F, G, K]
+  tau_ceti_holdout: true
+likelihood:
+  detections: Normal(y=alpha + beta_age*log10(age_Gyr), sigma=sqrt(sigma_intrinsic^2 + measurement_sigma^2))
+  nondetections: temperature-grid average of Normal CDF censoring probabilities
+  response: log10(fractional_luminosity)
+parameters:
+  alpha: {distribution: bounded optimization parameter, bounds: [-10, -2]}
+  beta_age: {distribution: bounded optimization parameter, bounds: [-5, 5]}
+  log_sigma_intrinsic: {distribution: bounded optimization parameter, bounds: [log(0.05), log(3.0)]}
+  temperature_grid_K: [20, 25, 30, 35, 40, 50, 60, 70, 85, 100]
+sampling:
+  method: maximum_likelihood_plus_bootstrap
+  optimizer: L-BFGS-B
+  bootstrap_replicates_requested: 150
+  posterior_chains: not produced; this is not an MCMC posterior
+status: restricted baseline; does not satisfy four-chain MCMC closure gate

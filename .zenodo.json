@@ -1,0 +1,9 @@
+{
+  "title": "Tau Ceti debris-disc reproducibility closure",
+  "upload_type": "software",
+  "version": "v1.0.0-manuscript-candidate",
+  "description": "Pre-deposit reproducibility and archival closure package. No DOI has been assigned.",
+  "license": "MIT",
+  "keywords": ["Tau Ceti", "debris disc", "reproducibility", "astronomy"],
+  "related_identifiers": []
+}

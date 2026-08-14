@@ -1,0 +1,7 @@
+{
+  "config": "finalisation/config/collisional_reference.yaml",
+  "status": "archived_output_validation",
+  "recomputed": false,
+  "reference_ring_median": 0.18608025936957256,
+  "reference_broad_median": 0.2291458892158028
+}

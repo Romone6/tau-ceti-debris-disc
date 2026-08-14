@@ -1,0 +1,2 @@
+model,q_tau_p16,q_tau_p50,q_tau_p84,z_tau_p16,z_tau_p50,z_tau_p84,p_brighter_than_90pct,p_brighter_than_95pct,tau_held_out
+merged strict; survey intercept + survey-specific scatter,0.8862851794941783,0.9274083133073248,0.9658201633285749,1.2070065501837977,1.456758216415282,1.8226307878838717,0.71,0.31666666666666665,True

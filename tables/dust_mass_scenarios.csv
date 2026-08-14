@@ -1,0 +1,3 @@
+scenario,flux_mjy,distance_pc,temperature_source,opacity_m2_per_kg,mass_earth_p16,mass_earth_p50,mass_earth_p84,status
+ALMA_belt_opacity_0.05_to_0.5_m2kg,ALMA belt 1.0 +/- 0.5,3.65 +/- 0.01,Model-A posterior,log-uniform range in scenario label,4.286057951248366e-05,0.00010611809197990475,0.0002620100928612581,assumption-labelled optically thin small-grain mass
+ALMA_belt_opacity_0.10_to_0.20_m2kg,ALMA belt 1.0 +/- 0.5,3.65 +/- 0.01,Model-A posterior,log-uniform range in scenario label,6.597484478603548e-05,0.0001271015171013477,0.00020426254071423164,assumption-labelled optically thin small-grain mass

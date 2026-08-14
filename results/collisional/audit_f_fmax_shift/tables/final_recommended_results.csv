@@ -1,0 +1,4 @@
+result,recommendation,reason
+reference_primary,retain as primary,validated accepted baseline
+diagnostic_joint,retain as diagnostic sensitivity analysis,lower fmax is traceable to changed blowout/geometry/prior inputs but posterior is provisional
+transient_event,do not claim,no independent positive evidence

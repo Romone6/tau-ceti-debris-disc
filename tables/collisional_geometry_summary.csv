@@ -1,0 +1,4 @@
+formulation,definition,fmax_p50,ratio_p2_5,ratio_p16,ratio_p50,ratio_p84,ratio_p97_5,p_ratio_gt_1,p_ratio_gt_10,classification
+A_characteristic_radius_ring,One belt at cross-section-weighted R_c with its full Δr/R_c.,4.51050890616511e-05,0.009586843241915298,0.03672496346754841,0.18608025936957256,0.9385465986146695,3.6018910901964496,0.15033,0.00116,Consistent with steady state
+B_continuous_broad_belt,Integral of local Eq. 14 ceilings over dln r.,3.6641010597947694e-05,0.011750669935712072,0.04513481385229102,0.2291458892158028,1.1575045736081613,4.446190131550557,0.183245,0.002895,Marginal or assumption-dependent
+C_independent_annuli,"Zones evolve independently; total ceiling is Σ fmax,i.",3.6641010597947694e-05,0.011750669935712072,0.04513481385229102,0.2291458892158028,1.1575045736081613,4.446190131550557,0.183245,0.002895,Marginal or assumption-dependent

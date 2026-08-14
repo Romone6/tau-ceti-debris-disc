@@ -1,0 +1,20 @@
+order,replacement,before_median,after_median,multiplicative_contribution,log10_contribution,status
+0,reference starting point,0.20408916062064164,0.20408916062064164,1.0,0.0,evaluated
+1,f,0.20408916062064164,0.06331935318508816,0.3102533862775073,-0.5082834696725528,evaluated
+2,age_myr,0.06331935318508816,0.06188106919747831,0.9772852387893853,-0.009978660894834457,evaluated
+3,mass,0.06188106919747831,0.061486756182804664,0.993627889437151,-0.002776227092342376,evaluated
+4,blowout_um,0.061486756182804664,0.26237128539880006,4.267118672169839,0.6301347211231609,evaluated
+5,dc_km,0.26237128539880006,0.14801878176505556,0.5641577032336806,-0.24859947745183186,evaluated
+6,qd,0.14801878176505556,0.18342608962557572,1.2392082101899797,0.09314428211428039,evaluated
+7,e,0.18342608962557572,0.5222151226947169,2.8470057000108597,0.45438833665197276,evaluated
+8,inc,0.5222151226947169,0.3901105479124016,0.747030353888195,-0.12666175125244228,evaluated
+9,rin,0.3901105479124016,0.4493946376017107,1.1519674102803836,0.06144019285837421,evaluated
+10,rout,0.4493946376017107,0.644806981308136,1.4348346138469397,0.15680184501912214,evaluated
+11,surface_power,0.644806981308136,0.6511449623078338,1.0098292685771482,0.004247953997948722,evaluated
+12,stellar_luminosity,,,1.0,0.0,not_separable: not an independent Eq.14 argument; enters only through the adopted blowout diameter
+13,characteristic_radius,,,1.0,0.0,represented_by_geometry: derived from inner/outer edges and surface-density slope
+14,width,,,1.0,0.0,represented_by_edges: derived as (Rout-Rin)/Rc in the ring formulation
+15,broad_belt_integration,,,1.0,0.0,separate_geometry: separate formulation; evaluated in the broad rows
+16,prior_truncation,,,1.0,0.0,boundary_sensitive: no diagnostic rejected samples; bounds are part of the diagnostic posterior
+17,posterior_correlations,,,1.0,0.0,interaction_only: interaction-only effect assessed by Shapley decomposition
+18,sample_filtering,,,1.0,0.0,no_change: no additional production filtering beyond finite positive inputs

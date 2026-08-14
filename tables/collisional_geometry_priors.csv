@@ -1,0 +1,25 @@
+formulation,parameter,distribution_or_value
+A_characteristic_radius_ring,f_obs,SED posterior samples
+A_characteristic_radius_ring,age_myr,"truncated Normal(7630,870); lower 4000"
+A_characteristic_radius_ring,stellar_mass_solar,"truncated Normal(0.783,0.012)"
+A_characteristic_radius_ring,blowout_diameter_um,"truncated Normal(1.2,0.3); model assumption"
+A_characteristic_radius_ring,largest_body_km,"log-uniform(1,2000)"
+A_characteristic_radius_ring,disruption_energy_j_per_kg,"log-uniform(50,500)"
+A_characteristic_radius_ring,eccentricity,"log-uniform(0.01,0.1), I=e"
+A_characteristic_radius_ring,belt_geometry,6–55 au; p=0
+B_continuous_broad_belt,f_obs,SED posterior samples
+B_continuous_broad_belt,age_myr,"truncated Normal(7630,870); lower 4000"
+B_continuous_broad_belt,stellar_mass_solar,"truncated Normal(0.783,0.012)"
+B_continuous_broad_belt,blowout_diameter_um,"truncated Normal(1.2,0.3); model assumption"
+B_continuous_broad_belt,largest_body_km,"log-uniform(1,2000)"
+B_continuous_broad_belt,disruption_energy_j_per_kg,"log-uniform(50,500)"
+B_continuous_broad_belt,eccentricity,"log-uniform(0.01,0.1), I=e"
+B_continuous_broad_belt,belt_geometry,6–55 au; p=0
+C_independent_annuli,f_obs,SED posterior samples
+C_independent_annuli,age_myr,"truncated Normal(7630,870); lower 4000"
+C_independent_annuli,stellar_mass_solar,"truncated Normal(0.783,0.012)"
+C_independent_annuli,blowout_diameter_um,"truncated Normal(1.2,0.3); model assumption"
+C_independent_annuli,largest_body_km,"log-uniform(1,2000)"
+C_independent_annuli,disruption_energy_j_per_kg,"log-uniform(50,500)"
+C_independent_annuli,eccentricity,"log-uniform(0.01,0.1), I=e"
+C_independent_annuli,belt_geometry,6–55 au; p=0

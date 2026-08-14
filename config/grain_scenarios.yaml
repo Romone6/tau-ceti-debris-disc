@@ -1,0 +1,36 @@
+scenario_distribution_status: unweighted_physical_scenario_distribution
+quoted_statistics:
+  median_D_bl_um: 0.95
+  p16_D_bl_um: 0.46
+  p84_D_bl_um: 2.06
+  interpretation: central scenario quantiles, not credible intervals
+stellar_inputs:
+  luminosity_Lsun: {mean: 0.52, sd: 0.03, distribution: clipped_normal}
+  mass_Msun: {mean: 0.783, sd: 0.012, distribution: clipped_normal}
+composition_grid:
+  densities_g_cm3: [0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5]
+  Q_pr_values: [0.1, 0.3, 0.5, 1.0, 1.5, 2.0]
+  labels:
+    - compact silicate
+    - compact water ice
+    - compact carbonaceous
+    - mixed silicate-ice
+    - porous silicate
+    - porous mixed
+  porosity_fraction: not separately sampled in quoted grid; encoded through scenario density
+wind_grid:
+  mass_loss_solar_units: [0.0, 0.1, 0.5, 1.0, 2.0, 5.0, 10.0]
+  wind_speed_m_s: 400000.0
+  drag_coefficient: 1.0
+  tau_ceti_constraint: <0.1 solar
+continuous_scenario_draw:
+  n: 100000
+  seed: 20260802
+  density_g_cm3: loguniform(0.5, 3.5)
+  Q_pr: uniform(0.3, 1.5)
+  weighting: equal Monte Carlo draw weight
+  source: audit_grain_size_physics/run_grain_size_audit.py physical_draws
+classification:
+  D_bl: derived beta=0.5 radiation-pressure diameter
+  D_min: Lawler physical-model minimum and fixed 20 um sensitivity
+  D_char: not constrained by current SED

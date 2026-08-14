@@ -1,0 +1,7 @@
+include: collisional_archival_geometry.yaml
+model_id: collisional_full_diagnostic
+overrides:
+  f_obs: diagnostic SED posterior
+  non_geometric_priors: diagnostic
+  D_min_um: 20.0
+  interpretation: full diagnostic sensitivity; not promoted to primary

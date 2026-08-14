@@ -1,0 +1,10 @@
+{
+  "rows": 126,
+  "detections": 30,
+  "chains": 4,
+  "draws": 1500,
+  "tune": 1500,
+  "target_accept": 0.92,
+  "tau_holdout": true,
+  "likelihood": "detections Normal with one intrinsic scatter; non-detections averaged Normal CDF over three temperature-marginal limits"
+}

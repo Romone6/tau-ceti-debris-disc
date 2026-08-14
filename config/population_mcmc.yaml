@@ -1,0 +1,26 @@
+model_id: strict_merged_bayesian_validation
+input: data/processed/fgk_fractional_luminosities.csv plus data/processed/debris_fractional_luminosities.csv with exact HIP overlaps removed
+holdout: Tau Ceti excluded from fit
+response: y=log10(fractional_luminosity)
+predictors:
+  - standardized_log10_age_Gyr
+  - standardized_log10_stellar_mass_Msun
+  - DEBRIS survey indicator
+likelihood:
+  detections: Normal(mu, sqrt(group_intrinsic_scatter^2 + measurement_sigma^2))
+  nondetections: mean over three temperature-marginalized Normal CDF upper-limit likelihoods
+priors:
+  alpha: Normal(-5, 2)
+  beta_age: Normal(-1, 1)
+  beta_mass: Normal(0, 1)
+  survey_intercept: Normal(0, 1)
+  sigma_dunes: HalfNormal(1)
+  sigma_debris: HalfNormal(1)
+sampling:
+  engine: PyMC NUTS
+  chains: 4
+  tune: 1500
+  draws: 1500
+  target_accept: 0.92
+  seeds: [20260811, 20260812, 20260813, 20260814]
+status: validation sensitivity; differs from accepted MLE/bootstrap baseline and is not silently promoted

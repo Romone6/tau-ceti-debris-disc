@@ -1,0 +1,2 @@
+sample,n_stars,n_detections,alpha_p50,beta_age_p50,sigma_intrinsic_p50,scope
+DUNES strict FGK,126,30,-6.344995942115863,-1.0037955020063216,1.2080027142349838,DUNES only; no DEBRIS merge

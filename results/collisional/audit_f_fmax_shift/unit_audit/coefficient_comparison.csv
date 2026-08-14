@@ -1,0 +1,7 @@
+term,reference_code,diagnostic_code,status
+normalisation,1e-6 Eq.14,1e-6 Eq.14,same
+radius_exponent,r^1.5 local; Rc geometry,r^1.5 local; Rc geometry,same
+age_exponent,-1,-1,same
+stellar_mass_exponent,-0.5 plus Xc,-0.5 plus Xc,same
+eccentricity/inclination,I=e,I=0.5e,input definition differs
+diameter ratio,Dbl*1e-9/Dc,Dbl*1e-9/Dc,same implementation

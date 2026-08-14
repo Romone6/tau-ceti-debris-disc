@@ -1,0 +1,8 @@
+quantity,reference,diagnostic,status
+age,Myr,Myr,ok
+radius,AU,AU,ok
+D_c,km,km,ok
+D_bl,micrometre,micrometre,ok
+Q_D_star,J kg^-1,J kg^-1,ok
+eccentricity,fraction,fraction,ok
+inclination,radian proxy I=e,radian proxy I=0.5e,definition difference

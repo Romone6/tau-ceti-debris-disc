@@ -1,0 +1,6 @@
+parameter,value,uncertainty,unit,source,used_in_blowout
+luminosity,0.52,0.03,L_sun,project literature_constraints.csv,yes
+mass,0.783,0.012,M_sun,project literature_constraints.csv,yes
+age,7.63,0.87,Gyr,project literature_constraints.csv,no
+effective_temperature,not used,not available in project posterior,K,not required for analytic Qpr grid,no
+stellar_radius,not used,not available in project posterior,R_sun,not required for analytic Qpr grid,no

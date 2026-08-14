@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tau-ceti-debris-disc"
+version = "1.0.0"
+description = "Reproducibility release for the Tau Ceti debris-disc analysis"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

@@ -1,0 +1,7 @@
+command: /Users/romonedunlop/Documents/Tau Ceti Research/.venv/bin/python run_collisional_geometry_audit.py
+status: completed successfully
+seed: 20260723
+draws: 200000
+output: results/tables/collisional_geometry_summary.csv (copied to finalisation/tables)
+reference ring ratio_p50: 0.18608025936957256
+reference broad ratio_p50: 0.2291458892158028

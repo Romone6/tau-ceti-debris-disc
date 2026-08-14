@@ -1,0 +1,19 @@
+{
+  "reference": {
+    "blowout_diameter_um": "truncated Normal(1.2,0.3), lower 0.1; model assumption"
+  },
+  "diagnostic": {
+    "blowout_diameter_um": 20.0,
+    "status": "fixed hard-coded value; no prior"
+  },
+  "lawler_minimum_grain_diameter_um": {
+    "value": 15.0,
+    "sigma": 8.0,
+    "status": "physical grain model"
+  },
+  "physical_audit": {
+    "D_bl": "derived from L,M,rho,Qpr and optional wind",
+    "D_min": "controlled sensitivity parameter",
+    "D_char": "not constrained"
+  }
+}

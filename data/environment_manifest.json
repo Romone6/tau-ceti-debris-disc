@@ -1,0 +1,56 @@
+{
+  "worktree": "/Users/romonedunlop/Documents/Tau Ceti Research-final-reproducibility-closure",
+  "branch": "final-reproducibility-closure",
+  "git_commit": "9a334ae27f7d1869a44dcb81fd9dd1f62e919948",
+  "python": "3.12.12 (main, Dec  9 2025, 19:05:33) [Clang 21.1.4 ]",
+  "platform": "macOS-26.4-arm64-arm-64bit",
+  "casa": "not available in execution environment",
+  "packages": {
+    "numpy": "2.5.1",
+    "scipy": "1.18.0",
+    "matplotlib": "3.11.1",
+    "h5py": "3.16.0",
+    "dynesty": "3.1.0",
+    "arviz": "not installed",
+    "pymc": "not installed"
+  },
+  "random_seeds": {
+    "baseline": 20260723,
+    "grain_audit": 20260802
+  },
+  "source_checksums": [
+    {
+      "path": "results/final/accepted_merged_model_summary.json",
+      "sha256": "7fb0d3b0d66d09164d6009ff0b9bca85456185a682904fe3fea173161ce137a3"
+    },
+    {
+      "path": "results/tables/sed_model_comparison.csv",
+      "sha256": "6c47a45cfbea98c8402d98caada574166a7695545568c59abe1fb18354dd9e18"
+    },
+    {
+      "path": "results/tables/tau_ceti_merged_population_position.csv",
+      "sha256": "8ae9465b2d10e986e87b100129ca5775c80f29aee346fb9749483a18736cff0f"
+    },
+    {
+      "path": "results/tables/collisional_geometry_summary.csv",
+      "sha256": "3996abb5db9deb93ecbe3a01e2d25a6cb999c6d391b0e258a1cb06409cf0db3f"
+    },
+    {
+      "path": "results/final/joint_map_visibility_posterior.json",
+      "sha256": "1ed41139db8efe8552ec9dcbb360df23296441428bd7f9e59a6aa7f77afe1032"
+    },
+    {
+      "path": "finalisation/config/collisional_reference.yaml",
+      "sha256": "5e74b2c8e5d04c0360530b7080e9cea52f1f64d3671513e13fbcfeb076807661"
+    },
+    {
+      "path": "finalisation/config/population_model.yaml",
+      "sha256": "4529d3695e67d6f22bf83fe9f609b93fecb6e2bc6b0d8d4b734521d85e9ea842"
+    },
+    {
+      "path": "finalisation/config/grain_scenarios.yaml",
+      "sha256": "d3d9c7475cf475d97aa1516596493efc09c917a848a7db31101ac2e72e0e8cb7"
+    }
+  ],
+  "external_archive_identifiers": "See data/external_manifests; no new raw archive download performed"
+}

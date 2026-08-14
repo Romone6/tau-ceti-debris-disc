@@ -1,0 +1,4 @@
+literature_quantity,code_argument,unit,exponent_q11_6,status
+D_bl,blowout_diameter_um,um,-0.5,code label; physical meaning must be declared per run
+q,q,dimensionless,5-3q,default 11/6
+D_c,largest_body_km,km,+0.5,cascade upper size

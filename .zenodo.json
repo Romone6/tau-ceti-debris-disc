@@ -1,9 +1,15 @@
 {
   "title": "Tau Ceti debris-disc reproducibility closure",
   "upload_type": "software",
-  "version": "v1.0.0-manuscript-candidate",
-  "description": "Pre-deposit reproducibility and archival closure package. No DOI has been assigned.",
+  "version": "v1.0.0",
+  "description": "Frozen reproducibility release for the Tau Ceti debris-disc analysis. The GitHub release is public; the Zenodo DOI is to be assigned when the record is deposited.",
   "license": "MIT",
   "keywords": ["Tau Ceti", "debris disc", "reproducibility", "astronomy"],
-  "related_identifiers": []
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Romone6/tau-ceti-debris-disc/releases/tag/v1.0.0",
+      "relation": "isIdenticalTo",
+      "scheme": "url"
+    }
+  ]
 }

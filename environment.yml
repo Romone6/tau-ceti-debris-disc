@@ -14,3 +14,4 @@ dependencies:
       - arviz==1.2.0
       - xarray==2026.7.0
       - h5netcdf==1.8.1
+      - pytest

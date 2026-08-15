@@ -25,6 +25,8 @@ conda env create -f environment.yml
 conda activate tauceti
 make verify
 make reproduce
+# optional unit tests
+make test
 ```
 
 `make verify` is the fast frozen-value and archive-integrity check. `make reproduce` reruns the 200,000-draw collisional geometry analysis and refreshes its tables and figures. The full Herschel/ALMA archive reductions are intentionally not bundled; see [`data/README.md`](data/README.md).

@@ -11,4 +11,4 @@ pymc==6.2.0
 pytensor==3.2.4
 arviz==1.2.0
 xarray==2026.7.0
-# pandas/pyarrow/pytest are not installed in the legacy execution environment.
+pytest

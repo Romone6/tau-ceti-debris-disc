@@ -1,9 +1,17 @@
 {
   "title": "Tau Ceti debris-disc reproducibility closure",
   "upload_type": "software",
-  "version": "v1.0.0",
+  "version": "v1.0.2",
+  "creators": [
+    {
+      "name": "Dunlop, Romone",
+      "type": "ProjectMember"
+    }
+  ],
+  "access_right": "open",
+  "language": "eng",
   "description": "Frozen reproducibility release for the Tau Ceti debris-disc analysis. The GitHub release is public; the Zenodo DOI is to be assigned when the record is deposited.",
-  "license": "MIT",
+  "license": "mit",
   "keywords": ["Tau Ceti", "debris disc", "reproducibility", "astronomy"],
   "related_identifiers": [
     {

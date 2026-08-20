@@ -33,4 +33,4 @@ make test
 
 ## Release and citation
 
-This is a pre-deposit release. No public DOI is claimed until the repository is connected to Zenodo and the record is published. See [`docs/REPRODUCIBILITY.md`](docs/REPRODUCIBILITY.md) and [`docs/KNOWN_LIMITATIONS.md`](docs/KNOWN_LIMITATIONS.md).
+The frozen v1.0.2 release is archived at Zenodo: [10.5281/zenodo.22021388](https://doi.org/10.5281/zenodo.22021388). Cite that DOI for the archived software and derived analysis products. See [`docs/REPRODUCIBILITY.md`](docs/REPRODUCIBILITY.md) and [`docs/open_issues.md`](docs/open_issues.md).

@@ -15,7 +15,7 @@ The accepted literature-constrained baseline is reproducible from the frozen che
 | Tau Ceti holdout | PASS | `data/canonical/tau_ceti_holdout.json` |
 | Geometry posterior/injection coverage | NOT SATISFIED | retained products are diagnostic map/visibility/Laplace outputs |
 | Clean-environment reproduction | PARTIAL | existing project environment only; comparison table passes locked values |
-| Public DOI | NOT SATISFIED | no authenticated Zenodo deposit; manual bundle prepared |
+| Public DOI | PASS | Zenodo record [10.5281/zenodo.22021388](https://doi.org/10.5281/zenodo.22021388) for the v1.0.2 release |
 | Manuscript finalisation | BLOCKED | named revised manuscript file was not supplied |
 
 ## Scientific interpretation

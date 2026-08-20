@@ -1,10 +1,9 @@
-# Zenodo deposit handoff
+# Zenodo deposit handoff — complete
 
 The public GitHub repository and tagged release are complete:
 
 - Repository: <https://github.com/Romone6/tau-ceti-debris-disc>
-- Release: <https://github.com/Romone6/tau-ceti-debris-disc/releases/tag/v1.0.0>
+- Release: <https://github.com/Romone6/tau-ceti-debris-disc/releases/tag/v1.0.2>
+- DOI: <https://doi.org/10.5281/zenodo.22021388>
 
-To obtain the DOI, sign in to Zenodo, enable the repository under GitHub integration, and publish the `v1.0.0` release. Zenodo should ingest the release automatically. Reserve the DOI before publication if it must be inserted into the manuscript. Do not invent a DOI or delete a draft after reserving it.
-
-After publication, update `CITATION.cff`, `.zenodo.json`, the manuscript Data Availability section and bibliography, then create a final DOI-bearing tag/release. The current release intentionally contains no placeholder DOI.
+The repository was enabled through Zenodo GitHub integration and the v1.0.2 release was published as Zenodo record `10.5281/zenodo.22021388`. The DOI is now the canonical citation for the frozen software and derived analysis products.

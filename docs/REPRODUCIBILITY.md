@@ -7,4 +7,4 @@
 
 The exact collisional priors are in `config/collisional_reference.yaml`. The grain-grid construction and continuous-draw weights are in `config/grain_scenarios.yaml`. Population MCMC settings are in `config/population_mcmc.yaml`; the NetCDF archives are validation sensitivities.
 
-The public DOI is intentionally blank until a Zenodo record is actually published. Do not replace it with a placeholder DOI.
+The published Zenodo archive DOI for the v1.0.2 release is [10.5281/zenodo.22021388](https://doi.org/10.5281/zenodo.22021388). The GitHub release and Zenodo record are immutable references for the frozen scientific product.

@@ -5,5 +5,5 @@
 3. The 200,000-draw collisional geometry audit has now been rerun from the archived production script and its exact prior/configuration table is frozen; the lightweight module CLI remains an archived-output validator rather than a second implementation.
 4. No full Herschel/ALMA sampled joint posterior or injection-recovery coverage archive is present; geometry remains diagnostic.
 5. PyArrow/pandas are unavailable, so canonical inputs and grain samples are archived as CSV/HDF5 with explicit `.parquet.MISSING` notices.
-6. No Zenodo credentials or published DOI are available; a manual upload bundle is prepared but no DOI is claimed.
+6. The v1.0.2 release is archived at Zenodo under DOI `10.5281/zenodo.22021388`; future changes must use a new versioned release rather than modifying the frozen record.
 7. A clean isolated dependency environment was not built; the reproducibility command was run using the existing project environment.

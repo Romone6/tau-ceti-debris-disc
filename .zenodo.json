@@ -10,12 +10,12 @@
   ],
   "access_right": "open",
   "language": "eng",
-  "description": "Frozen reproducibility release for the Tau Ceti debris-disc analysis. The GitHub release is public; the Zenodo DOI is to be assigned when the record is deposited.",
+  "description": "Frozen reproducibility release for the Tau Ceti debris-disc analysis. Archived software and derived analysis products: https://doi.org/10.5281/zenodo.22021388",
   "license": "mit",
   "keywords": ["Tau Ceti", "debris disc", "reproducibility", "astronomy"],
   "related_identifiers": [
     {
-      "identifier": "https://github.com/Romone6/tau-ceti-debris-disc/releases/tag/v1.0.0",
+      "identifier": "https://github.com/Romone6/tau-ceti-debris-disc/releases/tag/v1.0.2",
       "relation": "isIdenticalTo",
       "scheme": "url"
     }

@@ -1,11 +1,14 @@
 cff-version: 1.2.0
 title: "Tau Ceti debris-disc reproducibility closure"
-message: "Cite the Zenodo archive DOI once the v1.0.0 GitHub release has been deposited."
+message: "Cite the archived Zenodo record for the v1.0.2 reproducibility release."
 type: software
 authors:
   - family-names: Dunlop
     given-names: Romone
-version: "v1.0.0"
+version: "v1.0.2"
 repository-code: "https://github.com/Romone6/tau-ceti-debris-disc"
 license: MIT
-date-released: 2026-08-15
+date-released: 2026-08-20
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22021388"
